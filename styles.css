@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Molot';
+  src: url('./assets/fonts/Molot.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   color-scheme: dark;
   --brand: #ffffff;
@@ -23,7 +31,7 @@
   --header-h: 28px;
   --topbar-h: 52px;
   --safe-bottom: env(safe-area-inset-bottom, 0px);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -121,6 +129,7 @@ button { font: inherit; color: inherit; background: transparent; border: 0; curs
   display: inline-flex; align-items: center;
   background: transparent;
   color: var(--text-dim);
+  font-family: 'Roboto', -apple-system, sans-serif;
   font-size: 11px; font-weight: 700; letter-spacing: 0.5px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -165,6 +174,7 @@ button { font: inherit; color: inherit; background: transparent; border: 0; curs
   display: flex; align-items: center; justify-content: center;
   padding: 0 10px;
   background: var(--bg-elev); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  font-family: 'Roboto', -apple-system, sans-serif;
   font-size: 12px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase;
   color: var(--text);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
@@ -225,7 +235,7 @@ button { font: inherit; color: inherit; background: transparent; border: 0; curs
   min-width: 0;
 }
 .block__name {
-  font-family: 'Jersey 10', ui-monospace, monospace;
+  font-family: 'Molot', -apple-system, sans-serif;
   font-size: 18px; font-weight: 400; letter-spacing: 0.5px;
   overflow: hidden;
   flex: 1 1 auto; min-width: 0;
@@ -363,7 +373,7 @@ button { font: inherit; color: inherit; background: transparent; border: 0; curs
 .details__head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .details__artist {
   margin: 4px 0 0;
-  font-family: 'Jersey 10', ui-monospace, monospace;
+  font-family: 'Molot', -apple-system, sans-serif;
   font-size: 32px; font-weight: 400; letter-spacing: 0.5px;
   line-height: 1;
   color: var(--brand);
