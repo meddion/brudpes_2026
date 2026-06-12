@@ -51,7 +51,6 @@ export function renderGrid(host, festival, dayId, { onBlockClick, favorites }) {
   ensureResizeFit(host);
 }
 
-const BLOCK_NAME_MAX_PX = 18;
 const BLOCK_NAME_MIN_PX = 9;
 
 function fitBlockText(host) {
@@ -60,7 +59,7 @@ function fitBlockText(host) {
     const name = block.querySelector('.block__name');
     if (!name) continue;
     name.style.fontSize = '';
-    let fs = BLOCK_NAME_MAX_PX;
+    let fs = parseFloat(getComputedStyle(name).fontSize) || 16;
     while (fs > BLOCK_NAME_MIN_PX && block.scrollHeight > block.clientHeight + 1) {
       fs -= 1;
       name.style.fontSize = `${fs}px`;
