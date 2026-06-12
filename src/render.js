@@ -46,6 +46,39 @@ export function renderGrid(host, festival, dayId, { onBlockClick, favorites }) {
   }
 
   host.appendChild(buildNowLine());
+
+  scheduleFit(host);
+  ensureResizeFit(host);
+}
+
+const BLOCK_NAME_MAX_PX = 18;
+const BLOCK_NAME_MIN_PX = 9;
+
+function fitBlockText(host) {
+  const blocks = host.querySelectorAll('.block');
+  for (const block of blocks) {
+    const name = block.querySelector('.block__name');
+    if (!name) continue;
+    name.style.fontSize = '';
+    let fs = BLOCK_NAME_MAX_PX;
+    while (fs > BLOCK_NAME_MIN_PX && block.scrollHeight > block.clientHeight + 1) {
+      fs -= 1;
+      name.style.fontSize = `${fs}px`;
+    }
+  }
+}
+
+let fitRaf = 0;
+function scheduleFit(host) {
+  cancelAnimationFrame(fitRaf);
+  fitRaf = requestAnimationFrame(() => fitBlockText(host));
+}
+
+let resizeWired = false;
+function ensureResizeFit(host) {
+  if (resizeWired) return;
+  resizeWired = true;
+  window.addEventListener('resize', () => scheduleFit(host));
 }
 
 function resolveDayStages(festival, day) {
