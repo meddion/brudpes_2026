@@ -58,11 +58,13 @@ async function boot() {
   let nowLoop;
   const setActiveDay = (id) => {
     activeDayId = id;
+    document.documentElement.dataset.day = id;
     renderDayTabs(els.daytabs, festival, activeDayId, setActiveDay);
     renderGrid(els.grid, festival, activeDayId, { onBlockClick, favorites });
     nowLoop?.refresh();
   };
 
+  document.documentElement.dataset.day = activeDayId;
   renderDayTabs(els.daytabs, festival, activeDayId, setActiveDay);
   renderGrid(els.grid, festival, activeDayId, { onBlockClick, favorites });
 

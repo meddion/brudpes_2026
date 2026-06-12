@@ -1,5 +1,5 @@
 export function createFavorites(festivalId) {
-  const key = `strichka.favorites.${festivalId}`;
+  const key = `fest.favorites.${festivalId}`;
   const listeners = new Set();
 
   function read() {
@@ -21,7 +21,7 @@ export function createFavorites(festivalId) {
 
   let set = read();
 
-  window.addEventListener('storage', (event) => {
+  window.addEventListener("storage", (event) => {
     if (event.key !== key) return;
     const next = read();
     const changed = symmetricDiff(set, next);
@@ -35,7 +35,9 @@ export function createFavorites(festivalId) {
   }
 
   return {
-    has(id) { return set.has(id); },
+    has(id) {
+      return set.has(id);
+    },
     toggle(id) {
       if (set.has(id)) set.delete(id);
       else set.add(id);

@@ -1,0 +1,77 @@
+{
+    "id": "brudnyi-pes-2026",
+    "name": "Брудний пес 2026",
+    "timezone": "Europe/Kyiv",
+    "stages": [
+        { "id": "anhar", "name": "Ангар" },
+        { "id": "keller", "name": "Keller" },
+        { "id": "dvir", "name": "Двір" }
+    ],
+    "days": [
+        {
+            "id": "day1",
+            "label": "Day 1 — Sat 13 Jun",
+            "date": "2026-06-13",
+            "startHour": 14,
+            "endHour": 22,
+            "stages": ["anhar", "keller", "dvir"]
+        },
+        {
+            "id": "day2",
+            "label": "Day 2 — Sun 14 Jun",
+            "date": "2026-06-14",
+            "startHour": 15,
+            "endHour": 22,
+            "stages": ["anhar", "keller", "dvir"]
+        }
+    ],
+    "performances": [
+        { "id": "d1-anhar-1", "artist": "Native Outsider", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T14:00:00+03:00", "end": "2026-06-13T15:30:00+03:00" },
+        { "id": "d1-anhar-2", "artist": "Sominaryst", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T15:30:00+03:00", "end": "2026-06-13T16:30:00+03:00" },
+        { "id": "d1-anhar-3", "artist": "Скало", "stageId": "anhar", "dayId": "day1", "country": "UA", "live": true, "start": "2026-06-13T16:30:00+03:00", "end": "2026-06-13T17:10:00+03:00" },
+        { "id": "d1-anhar-4", "artist": "Sportcafé", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T17:10:00+03:00", "end": "2026-06-13T17:50:00+03:00" },
+        { "id": "d1-anhar-5", "artist": "Ґрунт палає", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T17:50:00+03:00", "end": "2026-06-13T18:40:00+03:00" },
+        { "id": "d1-anhar-6", "artist": "Boanthropy", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T18:40:00+03:00", "end": "2026-06-13T19:20:00+03:00" },
+        { "id": "d1-anhar-7", "artist": "DJ Mell G", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T19:20:00+03:00", "end": "2026-06-13T21:00:00+03:00" },
+        { "id": "d1-anhar-8", "artist": "Ivan Bios", "stageId": "anhar", "dayId": "day1", "country": "UA", "start": "2026-06-13T21:00:00+03:00", "end": "2026-06-13T22:00:00+03:00" },
+
+        { "id": "d1-keller-1", "artist": "Demian Feriy", "stageId": "keller", "dayId": "day1", "country": "UA", "live": true, "start": "2026-06-13T16:00:00+03:00", "end": "2026-06-13T17:00:00+03:00" },
+        { "id": "d1-keller-2", "artist": "Невтома", "stageId": "keller", "dayId": "day1", "country": "UA", "start": "2026-06-13T17:00:00+03:00", "end": "2026-06-13T17:45:00+03:00" },
+        { "id": "d1-keller-3", "artist": "Виставка дисторшн", "stageId": "keller", "dayId": "day1", "country": "UA", "start": "2026-06-13T17:45:00+03:00", "end": "2026-06-13T18:30:00+03:00" },
+        { "id": "d1-keller-4", "artist": "Symonenko", "stageId": "keller", "dayId": "day1", "country": "UA", "live": true, "start": "2026-06-13T18:30:00+03:00", "end": "2026-06-13T19:30:00+03:00" },
+        { "id": "d1-keller-5", "artist": "Maat", "stageId": "keller", "dayId": "day1", "country": "UA", "live": true, "start": "2026-06-13T19:30:00+03:00", "end": "2026-06-13T20:30:00+03:00" },
+        { "id": "d1-keller-6", "artist": "Jane b2b Béllis", "stageId": "keller", "dayId": "day1", "country": "UA", "start": "2026-06-13T20:30:00+03:00", "end": "2026-06-13T22:00:00+03:00" },
+
+        { "id": "d1-dvir-1", "artist": "Klim", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T14:00:00+03:00", "end": "2026-06-13T15:30:00+03:00" },
+        { "id": "d1-dvir-2", "artist": "Darialism", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T15:30:00+03:00", "end": "2026-06-13T17:00:00+03:00" },
+        { "id": "d1-dvir-3", "artist": "Deys Rude Quartet", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T17:00:00+03:00", "end": "2026-06-13T18:00:00+03:00" },
+        { "id": "d1-dvir-4", "artist": "Hanna b2b Shults.Sashaa", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T18:00:00+03:00", "end": "2026-06-13T19:20:00+03:00" },
+        { "id": "d1-dvir-5", "artist": "Berliner Döner", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T19:20:00+03:00", "end": "2026-06-13T20:00:00+03:00" },
+        { "id": "d1-dvir-6", "artist": "Злипні", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T20:00:00+03:00", "end": "2026-06-13T21:00:00+03:00" },
+        { "id": "d1-dvir-7", "artist": "Crashboombang", "stageId": "dvir", "dayId": "day1", "country": "UA", "start": "2026-06-13T21:00:00+03:00", "end": "2026-06-13T22:00:00+03:00" },
+
+        { "id": "d2-anhar-1", "artist": "NAST-X", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T15:00:00+03:00", "end": "2026-06-14T16:40:00+03:00" },
+        { "id": "d2-anhar-2", "artist": "Діло дрянь", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T16:40:00+03:00", "end": "2026-06-14T17:20:00+03:00" },
+        { "id": "d2-anhar-3", "artist": "Freq.Crime", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T17:20:00+03:00", "end": "2026-06-14T18:00:00+03:00" },
+        { "id": "d2-anhar-4", "artist": "Alex Savage", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T18:00:00+03:00", "end": "2026-06-14T19:00:00+03:00" },
+        { "id": "d2-anhar-5", "artist": "Knives", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T19:00:00+03:00", "end": "2026-06-14T20:00:00+03:00" },
+        { "id": "d2-anhar-6", "artist": "ДК Енергетик", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T20:00:00+03:00", "end": "2026-06-14T21:00:00+03:00" },
+        { "id": "d2-anhar-7", "artist": "Vera Logdanidi", "stageId": "anhar", "dayId": "day2", "country": "UA", "start": "2026-06-14T21:00:00+03:00", "end": "2026-06-14T22:00:00+03:00" },
+
+        { "id": "d2-keller-1", "artist": "Parking Spot", "stageId": "keller", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T15:00:00+03:00", "end": "2026-06-14T16:00:00+03:00" },
+        { "id": "d2-keller-2", "artist": "Oleksandr Yavdyk", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T16:00:00+03:00", "end": "2026-06-14T17:00:00+03:00" },
+        { "id": "d2-keller-3", "artist": "Maryana Klochko", "stageId": "keller", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T17:00:00+03:00", "end": "2026-06-14T17:45:00+03:00" },
+        { "id": "d2-keller-4", "artist": "Xarakter", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T17:45:00+03:00", "end": "2026-06-14T18:30:00+03:00" },
+        { "id": "d2-keller-5", "artist": "Tysk", "stageId": "keller", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T18:30:00+03:00", "end": "2026-06-14T19:15:00+03:00" },
+        { "id": "d2-keller-6", "artist": "Taqaddam b2b Bey o Bey", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T19:15:00+03:00", "end": "2026-06-14T20:45:00+03:00" },
+        { "id": "d2-keller-7", "artist": "Cantrust b2b Monotronique", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T20:45:00+03:00", "end": "2026-06-14T22:00:00+03:00" },
+
+        { "id": "d2-dvir-1", "artist": "Anna Solovei", "stageId": "dvir", "dayId": "day2", "country": "UA", "start": "2026-06-14T15:00:00+03:00", "end": "2026-06-14T16:00:00+03:00" },
+        { "id": "d2-dvir-2", "artist": "Bogdan Zaiets", "stageId": "dvir", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T16:00:00+03:00", "end": "2026-06-14T17:00:00+03:00" },
+        { "id": "d2-dvir-3", "artist": "4:21 Kru", "stageId": "dvir", "dayId": "day2", "country": "UA", "start": "2026-06-14T17:00:00+03:00", "end": "2026-06-14T17:30:00+03:00" },
+        { "id": "d2-dvir-4", "artist": "Oles b2b Maks Yos", "stageId": "dvir", "dayId": "day2", "country": "UA", "start": "2026-06-14T17:30:00+03:00", "end": "2026-06-14T19:00:00+03:00" },
+        { "id": "d2-dvir-5", "artist": "Hyphen Dash", "stageId": "dvir", "dayId": "day2", "country": "UA", "start": "2026-06-14T19:00:00+03:00", "end": "2026-06-14T20:00:00+03:00" },
+        { "id": "d2-dvir-6", "artist": "VØVK", "stageId": "dvir", "dayId": "day2", "country": "UA", "start": "2026-06-14T20:00:00+03:00", "end": "2026-06-14T21:00:00+03:00" },
+        { "id": "d2-dvir-7", "artist": "Stars and Mellow", "stageId": "dvir", "dayId": "day2", "country": "UA", "start": "2026-06-14T21:00:00+03:00", "end": "2026-06-14T22:00:00+03:00" }
+    ]
+}

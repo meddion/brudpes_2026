@@ -1,1 +1,1 @@
-export const ACTIVE_FESTIVAL = 'strichka-2026';
+export const ACTIVE_FESTIVAL = 'brudnyi-pes-2026';
