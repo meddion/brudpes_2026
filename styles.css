@@ -437,21 +437,9 @@ button { font: inherit; color: inherit; background: transparent; border: 0; curs
   .topbar__logo { height: 44px; }
   .daytabs { padding: 10px 12px 0; gap: 4px; align-items: flex-end; }
   .daytab { padding: 10px 18px; font-size: 12px; display: block; }
-  .schedule__grid {
-    width: max-content;
-    min-width: 100%;
-    grid-template-columns: var(--time-col-w) repeat(var(--stage-count, 7), var(--stage-col-w));
-  }
   .details {
     max-width: 520px;
     margin: auto;
   }
   .details__form { padding: 22px 24px; }
-}
-
-@media (min-width: 1280px) {
-  .schedule__grid {
-    width: 100%;
-    grid-template-columns: var(--time-col-w) repeat(var(--stage-count, 7), minmax(0, 1fr));
-  }
 }
