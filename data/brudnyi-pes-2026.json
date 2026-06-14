@@ -61,7 +61,7 @@
         { "id": "d2-keller-1", "artist": "Parking Spot", "stageId": "keller", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T15:00:00+03:00", "end": "2026-06-14T16:00:00+03:00" },
         { "id": "d2-keller-2", "artist": "Oleksandr Yavdyk", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T16:00:00+03:00", "end": "2026-06-14T17:00:00+03:00" },
         { "id": "d2-keller-3", "artist": "Maryana Klochko", "stageId": "keller", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T17:00:00+03:00", "end": "2026-06-14T17:45:00+03:00" },
-        { "id": "d2-keller-4", "artist": "Xarakter", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T17:45:00+03:00", "end": "2026-06-14T18:30:00+03:00" },
+        { "id": "d2-keller-4", "artist": "Sasha Pervukhin", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T17:45:00+03:00", "end": "2026-06-14T18:30:00+03:00" },
         { "id": "d2-keller-5", "artist": "Tysk", "stageId": "keller", "dayId": "day2", "country": "UA", "live": true, "start": "2026-06-14T18:30:00+03:00", "end": "2026-06-14T19:15:00+03:00" },
         { "id": "d2-keller-6", "artist": "Taqaddam b2b Bey o Bey", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T19:15:00+03:00", "end": "2026-06-14T20:45:00+03:00" },
         { "id": "d2-keller-7", "artist": "Cantrust b2b Monotronique", "stageId": "keller", "dayId": "day2", "country": "UA", "start": "2026-06-14T20:45:00+03:00", "end": "2026-06-14T22:00:00+03:00" },
